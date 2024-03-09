@@ -1,0 +1,83 @@
+{
+    "crepe":{
+       "name": "crepe",
+       "index": 1,
+       "level": 1,
+       "cost": 0.002,
+       "sale": 0.004,
+       "time": "1 M",
+       "count": 60
+    },
+    "burger":{
+       "name": "burger",
+       "index": 2,
+       "level": 1,
+       "cost": 0.02,
+       "sale": 0.032,
+       "time": "5 M",
+       "count": 300
+    },
+    "pizza":{
+       "name": "pizza",
+       "index": 3,
+       "level": 2,
+       "cost": 0.12,
+       "sale": 0.24,
+       "time": "1 H",
+       "count": 3600
+    },
+    "pasta":{
+       "name": "pasta",
+       "index": 4,
+       "level": 2,
+       "cost": 0.2,
+       "sale": 0.36,
+       "time": "2 H",
+       "count": 7200
+    },
+    "chicken":{
+       "name": "chicken",
+       "index": 5,
+       "level": 3,
+       "cost": 0.4,
+       "sale": 0.8,
+       "time": "4 H",   
+       "count": 14400
+    },
+    "soup":{
+       "name": "soup",
+       "index": 6,
+       "level": 4,
+       "cost": 0.6,
+       "sale": 1.2,
+       "time": "8 H",
+       "count": 28800
+    },
+    "steak":{
+       "name": "steak",
+       "index": 7,
+       "level": 4,
+       "cost": 1.2,
+       "sale": 1.8,
+       "time": "6 H",
+       "count": 21600
+    },
+    "bread":{
+       "name": "bread",
+       "index": 8,
+       "level": 5,
+       "cost": 4,
+       "sale": 8,
+       "time": "1 D",
+       "count": 86400
+    },
+    "cake":{
+       "name": "cake",
+       "index": 9,
+       "level": 4,
+       "cost": 12,
+       "sale": 18,
+       "time": "3 D",
+       "count": 259200
+    }
+ }

@@ -1,0 +1,99 @@
+.inventorymenu-dialog{
+    max-width: 53.9583vw;
+}
+.inventorymenu-content{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/inventory-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .item-preview{
+        position: absolute;
+        width: 10.9375vw;
+        height: 8.125vw;
+        top: 7.125vw;
+        right: 6.375vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .item-preview-img{
+        background-color: transparent;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        width: auto;
+    }
+    .in-close{
+        position: absolute;
+        width: 2.1875vw;
+        height: 2.1875vw;
+        top: 0.625vw;
+        right: 1.4583vw;
+        transition: 0.5s;
+    }
+    .in-close:hover{
+        cursor: pointer;
+        transform: scale(1.3,1.3);
+    }
+    .crafts-list{
+        position: absolute;
+        width: 28.75vw;
+        height: 27.0833vw;
+        top: 4.5833vw;
+        left: 3.6458vw;
+    }
+    .crafts{
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw;
+    }
+    .craft{
+        background-image: url('./../../../assets/menus/recipes-item.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+        padding: 0.5vw;
+        width: 4.6875vw;
+        height: 4.6875vw;
+        transition: 0.5s;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .craft-item-img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .craft-item-img.inactive{
+            opacity: 0.5;
+        }
+    }
+    .craft:hover{
+        cursor: pointer;
+        transform: translate(0px, -0.5vw);
+    }
+    .craft-item{
+        position: absolute;
+        width: 11.3542vw;
+        height: 3.125vw;
+        bottom: 4.5833vw;
+        left: 19.7917vw;
+    }
+    .craft-info{
+        position: absolute;
+        width: 17.8125vw;
+        height: 10.9375vw;
+        right: 3.125vw;
+        bottom: 4.125vw;
+        
+        .craft-info-text{
+            font-family: 'upheaval';
+            color: white;
+            display: block;
+            font-size: 2vw;
+            line-height: initial;
+        }
+    }
+}

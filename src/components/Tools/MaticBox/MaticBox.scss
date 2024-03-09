@@ -1,0 +1,21 @@
+.maticbox-area{
+    .maticbox-img{
+        position: absolute;
+        width: 11.1458vw;
+        height: 6.5625vw;
+        top: 40.2083vw;
+        left: 28.5vw;
+    }
+}
+.maticbox-area.active{
+    opacity: 1;
+    .maticbox-img:hover{
+        cursor: pointer;
+    }
+}
+.maticbox-area.inactive{
+    opacity: 0.7;
+    .maticbox-img:hover{
+        cursor: not-allowed;
+    }
+}

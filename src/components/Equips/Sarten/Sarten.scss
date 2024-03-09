@@ -1,0 +1,36 @@
+.sarten-img{
+    display: inline-block;
+    position: absolute;
+    width: 1.7708vw;
+    height: 0.9375vw;
+}
+.food-img{
+    display: inline-block;
+    position: absolute;
+    width: 3.5vw;
+    height: 2.2vw;
+}
+.food-img:hover{
+    cursor: pointer;
+}
+
+.pan-img{
+    display: inline-block;
+    position: absolute;
+    width: 2.1875vw;
+    height: 2.5vw;
+}
+.progress-img{
+    display: inline-block;
+    position: absolute;
+    width: 3vw;
+    height: 0.75vw;
+}
+.progress-time-text{
+    display: inline-block;
+    position: absolute;
+    width: 1.75vw;
+    font-family: 'upheaval';
+    color: black;
+    font-size: 0.75vw;
+}

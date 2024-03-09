@@ -1,0 +1,14 @@
+.swapButton{
+    display: inline-block;
+    position: absolute;
+    top: 12.5vw;
+    right: 1.5vw;
+    
+    .swapButton-img{
+        width: 10.5625vw;
+        height: 4.2708vw;
+    }
+    .swapButton-img:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,12 @@
+{    
+    "None": 0, 
+    "Crepe": 1, 
+    "Burger": 2,  
+    "Pizza": 3,  
+    "Pasta": 4,  
+    "Chicken": 5,  
+    "Soup": 6,  
+    "Steak": 7, 
+    "Bread": 8,
+    "Cake": 9
+}

@@ -1,0 +1,23 @@
+.maxlevelmenu-dialog{
+    max-width: 45.4167vw;
+}
+.maxlevelmenu-content{
+    width: 45.4167vw;
+    height: 16.5625vw;
+    background-image: url('./../../../assets/menus/max-level-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .maxlevel-close{
+        position: absolute;
+        width: 4.1875vw;
+        height: 4.1875vw;
+        top: 0.5vw;
+        right: 0.5vw;
+        transition: 0.5s;
+    }
+    .maxlevel-close:hover{
+        cursor: pointer;
+        transform: scale(1.1,1.1);
+    }
+}

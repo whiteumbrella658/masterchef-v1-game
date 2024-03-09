@@ -1,0 +1,47 @@
+.matic-reward-collection-dialog{
+    max-width: 53.9583vw;
+}
+.matic-reward-collection-content{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/reward-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .reward-btn{
+        position: absolute;
+        width: 23.8542vw;
+        height: 5.7292vw;
+        top: 23.9583vw;
+        left: 15vw;
+        transition: 0.5s;
+    }
+    .reward-btn.active:hover{
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
+    .reward-btn.inactive:hover{
+        cursor: not-allowed;
+    }
+    .reward-close{
+        position: absolute;
+        width: 2.1875vw;
+        height: 2.1875vw;
+        top: 0.625vw;
+        right: 1.4583vw;
+        transition: 0.5s;
+    }
+    .reward-close:hover{
+        cursor: pointer;
+        transform: scale(1.3,1.3);
+    }
+    .matic-time-left{
+        font-family: 'upheaval';
+        font-size: 2.1875vw;
+        color: white;
+        display: inline-block;
+        position: absolute;
+        top: 20vw;
+        left: 18vw;
+    }
+}

@@ -1,0 +1,13 @@
+.fridge{
+    display: inline-block;
+    position: absolute;
+    top: 7.6875vw;
+    left: 0vw;
+    .fridge-img{
+        width: 9.375vw;
+        height: 19.0625vw
+    }
+    .fridge.craft-item.active:hover{
+        transform: scale(1.1, 1.1)
+    }
+}

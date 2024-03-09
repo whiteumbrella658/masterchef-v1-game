@@ -1,0 +1,37 @@
+{
+    "Fridge": {
+        "name": "Fridge",
+        "symbol":1,
+        "cost": 250,
+        "type": "MATIC",
+        "description": "Fridge makes 3 free nfts and matic box."
+    },
+    "Ladle": {
+        "name": "Ladle",
+        "symbol":2,
+        "cost": 200,
+        "type": "MATIC",
+        "description": "Ladle makes MSCH tip box every 3 days"
+    },
+    "Kettle": {
+        "name": "Kettle",
+        "symbol":3,
+        "cost": 100,
+        "type": "MATIC",
+        "description": "Kettle makes 3x faster chicken."
+    },
+    "Mixer": {
+        "name": "Mixer",
+        "symbol":4,
+        "cost": 100,
+        "type": "MATIC",
+        "description": "Mixer makes 3x faster soup."
+    },
+    "Oven": {
+        "name": "Oven",
+        "symbol":5,
+        "cost": 100,
+        "type": "MATIC",
+        "description": "Oven makes 3x faster cakes."
+    }
+}

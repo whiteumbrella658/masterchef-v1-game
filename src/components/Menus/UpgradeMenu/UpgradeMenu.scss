@@ -1,0 +1,39 @@
+.modal-dialog{
+    max-width: 53.9583vw;
+}
+.upgrademenu-dialog{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/upgrade-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .upgrade-close{
+        position: absolute;
+        width: 2.1875vw;
+        height: 2.1875vw;
+        top: 0.625vw;
+        right: 1.4583vw;
+    }
+    .upgrade-button{
+        position: absolute;
+        width: 23.8542vw;
+        height: 5.7292vw;
+        top: 25.8333vw;
+        left: 15.5208vw;
+    }
+    .upgrade-text{
+        position: absolute;
+        display: inline-block;
+        font-family: 'upheaval';
+        color: white;
+        font-size: 2.5vw;
+        left: 18.2292vw;
+    }
+    .upgrade-level{
+        top: 15.3125vw;
+    }
+    .upgrade-cost{
+        top: 19.5833vw;
+    }
+}

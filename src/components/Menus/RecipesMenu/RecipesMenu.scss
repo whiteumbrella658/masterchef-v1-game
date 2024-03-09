@@ -1,0 +1,95 @@
+.recipesmenu-dialog{
+    max-width: 53.9583vw;
+}
+.recipesmenu-content{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/recipes-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .rm-item{
+        position: absolute;
+        width: 4.6875vw;
+        height: 4.6875vw;
+        top: 5.7292vw;
+        left: 5.2083vw;
+    }
+    .rm-preview{
+        position: absolute;
+        background-color: transparent;
+        width: 10.9375vw;
+        height: 8.125vw;
+        top: 7.125vw;
+        right: 6.375vw;
+    }
+    .rm-close{
+        position: absolute;
+        width: 2.1875vw;
+        height: 2.1875vw;
+        top: 0.625vw;
+        right: 1.4583vw;
+        transition: 0.5s;
+    }
+    .rm-close:hover{
+        cursor: pointer;
+        transform: scale(1.3,1.3);
+    }
+    .foods-list{
+        position: absolute;
+        width: 28.75vw;
+        height: 27.0833vw;
+        top: 4.5833vw;
+        left: 3.6458vw;
+    }
+    .foods{
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw;
+    }
+    .food{
+        background-image: url('./../../../assets/menus/recipes-item.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+        padding: 0.5vw;
+        width: 4.6875vw;
+        height: 4.6875vw;
+        transition: 0.5s;
+        
+        .food-item-img{
+            width: 100%;
+            height: 100%;
+        }
+        .food-item-img.inactive{
+            opacity: 0.5;
+        }
+    }
+    .food:hover{
+        cursor: pointer;
+        transform: translate(0px, -0.5vw);
+    }
+    .rm-select{
+        position: absolute;
+        width: 11.3542vw;
+        height: 3.125vw;
+        bottom: 4.5833vw;
+        left: 19.7917vw;
+    }
+    .food-info{
+        position: absolute;
+        width: 17.8125vw;
+        height: 10.9375vw;
+        right: 3.125vw;
+        bottom: 4.125vw;
+        
+        .food-info-text{
+            font-family: 'upheaval';
+            color: white;
+            display: block;
+            font-size: 2vw;
+            line-height: initial;
+        }
+    }
+    
+}

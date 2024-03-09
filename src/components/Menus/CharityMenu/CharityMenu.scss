@@ -1,0 +1,23 @@
+.charity-dialog{
+    max-width: 45.4167vw;
+}
+.charity-content{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/charity-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .charity-button{
+        position: absolute;
+        width: 19.6875vw;
+        height: 6.25vw;
+        bottom: 16.5vw;
+        left: 12.5vw;
+        transition: 0.5s;
+    }
+    .charity-button:hover{
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
+}

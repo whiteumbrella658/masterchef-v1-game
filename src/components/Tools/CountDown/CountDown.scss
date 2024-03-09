@@ -1,0 +1,25 @@
+.countdown{
+    display: inline-block;
+    position: absolute;
+    top: 5vw;
+    left: 43.3333vw;
+    
+    .countdown-img{
+        width: 17.2917vw;
+        height: 10.4167vw
+    }
+    .countdown-text{
+        display: inline-block;
+        position: absolute;
+        font-family: 'upheaval';
+        font-size: 2.5vw;
+        color: white;
+        top: 3.6667vw;
+    }
+    .countdown-minute{
+        left: 3.9583vw;
+    }
+    .countdown-second{
+        right: 4.1267vw
+    }
+}

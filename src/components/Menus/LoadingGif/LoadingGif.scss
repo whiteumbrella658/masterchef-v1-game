@@ -1,0 +1,11 @@
+.loadinggif-dialog{
+    max-width: 6.875vw;
+}
+.loadinggif-content{
+    width: 6.875vw;
+    height: 6.875vw;
+    background-image: url('./../../../assets/loading.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}

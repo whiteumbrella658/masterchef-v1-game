@@ -1,0 +1,22 @@
+.balanceBar{
+    display: inline-block;
+    position: absolute;
+    top: 6.5vw;
+    right: 14vw;
+    
+    .balanceBar-img{
+        width: 10.5625vw;
+        height: 4.2708vw;
+    }
+    .balanceBar-img:hover{
+        cursor: pointer;
+    }
+    .balanceBar-text{
+        position: absolute;
+        color: white;
+        font-family: 'upheaval';
+        font-size: 1.75vw;
+        top: 0.5vw;
+        right: 0.5vw;
+    }
+}

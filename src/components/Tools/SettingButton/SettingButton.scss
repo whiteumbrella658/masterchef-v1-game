@@ -1,0 +1,14 @@
+.settingButton{
+    display: inline-block;
+    position: absolute;
+    top: 6.5vw;
+    right: 1.5vw;
+    
+    .settingButton-img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .settingButton-img:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,31 @@
+.mainmenu-dialog{
+    max-width: 53.9583vw;
+}
+.mainmenu-content{
+    width: 53.9583vw;
+    height: 34.7917vw;
+    background-image: url('./../../../assets/menus/main-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .mainmenu-btns{
+        position: absolute;
+        width: 8.125vw;
+        height: 8.125vw;
+        top: 21.5625vw;
+        transition: 0.5s;
+    }
+    .mainmenu-btns:hover{
+        cursor: pointer;
+        transform: scale(1.2, 1.2);
+    }
+    .mainmenu-play-btn{
+        left: 12.2917vw;
+    }
+    .mainmenu-about-btn{
+        left: 24.375vw;
+    }
+    .mainmenu-dollar-btn{
+        left: 34.8959vw;
+    }
+}

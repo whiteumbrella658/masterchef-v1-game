@@ -1,0 +1,40 @@
+.musicBar{
+    display: inline-block;
+    position: absolute;
+    top: 6.875vw;
+    right: 26.5vw;
+
+    .musicBar-img{
+        width: 10.5625vw;
+        height: 3.25vw;
+    }
+    .play, .pause, .volume-up,.volume-down{
+        position: absolute;
+        width: 2.5vw;
+        height: 2.5vw;
+        top: 0.25vw;
+        transition: 0.5s;
+    }
+    .play:hover, .pause:hover, .volume-up.active:hover,.volume-down.active:hover{
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
+    .play{
+        right: 4vw;
+    }
+    .pause{
+        right: 4vw;
+    }
+    .volume-up{
+        right: 0vw;
+    }
+    .volume-down{
+        right: 8vw;
+    }
+    .inactive{
+        opacity: 0.7;
+    }
+    .active{
+        opacity: 1;
+    }
+}

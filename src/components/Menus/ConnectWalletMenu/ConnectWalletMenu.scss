@@ -1,0 +1,23 @@
+.connectwalletmenu-dialog{
+    max-width: 45.4167vw;
+}
+.connectwalletmenu-content{
+    width: 45.4167vw;
+    height: 16.5625vw;
+    background-image: url('./../../../assets/menus/connect-wallet-menu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    .connectwallet-button{
+        position: absolute;
+        width: 19.6875vw;
+        height: 6.25vw;
+        bottom: 0.5vw;
+        left: 12.5vw;
+        transition: 0.5s;
+    }
+    .connectwallet-button:hover{
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
+}
